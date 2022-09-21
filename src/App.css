@@ -1,27 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap') ; 
 
 .App {
   text-align: center;
 }
 
 * {
-  font-family: 'Barlow';
+  font-family: Barlow;
 }
 
 body {
-  background-image: url("./images/background.png");
+  background-image: url('./images/background.png');
 }
 
 h1 {
   color: white;
-  text-align: center;
   padding: 100px;
+  text-align: center;
 }
 
 h2 {
   color: white;
-  text-align: center;
   margin-bottom: 30px;
+  text-align: center;
 }
 
 p {
@@ -29,8 +29,8 @@ p {
 }
 
 .system {
-  display: flex;
   align-items: center;
+  display: flex;
 }
 
 .card-planet {
@@ -44,21 +44,19 @@ p {
   background-color: black;
   border-radius: 25px;
   opacity: 0.6;
-  padding: 50px;
   margin-left: 50px;
-  margin-right: 50px;
+  padding: 50px;
   display: flex;
+  margin-right: 50px;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .card-mission {
-  width: 100px;
-  padding: 30px;
   background-color: gray;
-  border-color: white;
-  border-width: 10px;
   border-radius: 10px;
+  padding: 30px;
+  width: 100px;
   margin-bottom: 30px;
 }
 
