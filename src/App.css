@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap') ; 
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap'); 
+
 
 .App {
   text-align: center;
 }
 
 * {
-  font-family: Barlow;
+  font-family: Barlow, sans-serif;
 }
 
 body {
@@ -43,27 +44,27 @@ p {
 .missions-section {
   background-color: black;
   border-radius: 25px;
-  opacity: 0.6;
-  margin-left: 50px;
-  padding: 50px;
   display: flex;
-  margin-right: 50px;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 50px;
+  opacity: 0.6;
+  padding: 50px;
 }
 
 .card-mission {
   background-color: gray;
   border-radius: 10px;
+  margin-bottom: 30px;
   padding: 30px;
   width: 100px;
-  margin-bottom: 30px;
 }
 
 .main-title-mission {
   background-color: black;
-  opacity: 0.6;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  opacity: 0.6;
 }
