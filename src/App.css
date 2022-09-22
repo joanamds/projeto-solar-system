@@ -38,29 +38,53 @@ p {
 }
 
 .missions-section {
-  background-color: black;
   border-radius: 25px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-left: 50px;
   margin-right: 50px;
-  opacity: 0.6;
   padding: 50px;
 }
 
 .card-mission {
-  background-color: gray;
+  background-color: black;
   border-radius: 10px;
   margin-bottom: 30px;
+  opacity: 0.5;
   padding: 30px;
-  width: 100px;
+  width: 400px;
 }
 
 .main-title-mission {
-  background-color: black;
   display: flex;
   flex-direction: column;
   justify-content: center;
   opacity: 0.6;
+}
+
+.name-mission {
+  display: flex;
+  font-size: 30px;
+  font-weight: 700;
+  justify-content: center;
+  text-align: center;
+}
+
+.year-mission {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 20px;
+  font-weight: 600;
+  justify-content: center;
+}
+
+.mission-moreinfo {
+  display: flex;
+  justify-content: space-around;
+}
+
+.country-mission {
+  display: flex;
+  justify-content: space-around;
 }
