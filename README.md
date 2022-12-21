@@ -4,7 +4,7 @@ O primeiro projeto em React a gente não esquece! Mal aprendemos a dar o primeir
 Foi pedido que criássemos uma página para listar todos os planetas do sistema solar e algumas missões espaciais mais famosas. 
 
 [Clique aqui para ver a aplicação](https://joanamds.github.io/projeto-solar-system/)
-### Gif mostrando a aplicação
+
 ![screen-recording (6)](https://user-images.githubusercontent.com/106452876/208135486-7b08d986-e945-45c6-95fc-eb52183ae584.gif)
 
 <!-- Olá, Tryber!
